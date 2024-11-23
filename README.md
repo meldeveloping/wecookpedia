@@ -1,1 +1,1 @@
-https://github.com/meldeveloping/https://wecookpedia.git
+https://github.com/meldeveloping/wecookpedia.git

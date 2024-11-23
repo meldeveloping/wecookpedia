@@ -3,10 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WeCookpedia</title>
+    <meta name="description" content="Wecookpedia - Tu enciclopedia de alimentos y recetas.">
+    <title>Wecookpedia</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Archivo CSS para estilos -->
+    <link rel="icon" href="images/favicon.png" type="image/png">
 </head>
 <body>
-    <h1>¡Bienvenido a WeCookpedia!</h1>
-    <p>Tu enciclopedia de comida y recetas.</p>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Wecookpedia</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#ingredientes">Ingredientes</a></li>
+                <li><a href="#recetas">Recetas</a></li>
+                <li><a href="#acerca-de">Acerca de</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Bienvenido a Wecookpedia</h1>
+            <p>Explora la enciclopedia definitiva de alimentos y recetas.</p>
+            <a href="#ingredientes" class="btn">Descubre ingredientes</a>
+        </section>
+
+        <section id="ingredientes" class="section">
+            <h2>Ingredientes Destacados</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="images/platanos.jpg" alt="Plátanos">
+                    <h3>Plátanos</h3>
+                    <p>Ricos en potasio y perfectos para tus desayunos.</p>
+                    <a href="ingredientes/platano.html" class="btn-secondary">Ver más</a>
+                </div>
+                <div class="card">
+                    <img src="images/arroz.jpg" alt="Arroz">
+                    <h3>Arroz</h3>
+                    <p>Un alimento básico en muchas culturas.</p>
+                    <a href="ingredientes/arroz.html" class="btn-secondary">Ver más</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="recetas" class="section">
+            <h2>Recetas Populares</h2>
+            <ul>
+                <li><a href="recetas/arroz-con-pollo.html">Arroz con Pollo</a></li>
+                <li><a href="recetas/batido-de-platano.html">Batido de Plátano</a></li>
+            </ul>
+        </section>
+
+        <section id="acerca-de" class="section">
+            <h2>Sobre Wecookpedia</h2>
+            <p>Wecookpedia es tu fuente confiable para explorar todo lo relacionado con alimentos y recetas. Nuestro objetivo es ofrecerte información clara, precisa y útil.</p>
+        </section>
+
+        <section id="contacto" class="section">
+            <h2>Contacto</h2>
+            <form action="#" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Wecookpedia. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
