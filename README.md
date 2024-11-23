@@ -1,2 +1,1 @@
-[git clone https://wecookpedia.com/
-cd wecookpedia](https://wecookpedia.com/)
+https://github.com/meldeveloping/https://wecookpedia.com
